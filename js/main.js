@@ -7,8 +7,9 @@ createNumber()
 
 for(let i = 0; i<100; i++){
 
-    let nuovoElemento = createGrid();
+    console.log(number);
 
+    let nuovoElemento = createGrid(i);
 
     myElement.appendChild(nuovoElemento);
 
@@ -18,7 +19,7 @@ for(let i = 0; i<100; i++){
     
         function(){
             nuovoElemento.classList.toggle("click")
-            
+
             console.log(numero);
         }
     

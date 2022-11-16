@@ -18,6 +18,8 @@ for(let i = 0; i<100; i++){
     
         function(){
             nuovoElemento.classList.toggle("click")
+            
+            console.log(numero);
         }
     
     );

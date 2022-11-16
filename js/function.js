@@ -1,5 +1,5 @@
 
-let number
+let number 
 
 // funzione per creare i numeri progressivi
 
@@ -16,7 +16,7 @@ function createNumber(){
 
 
 // funzione per creare la griglia
-function createGrid(){
+function createGrid(number){
 
     // creazione elemento div
     const elemento = document.createElement("div");

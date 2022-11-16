@@ -3,6 +3,7 @@
 // dichiaro le constanti
 const myElement = document.getElementById("container")
 
+createNumber()
 
 for(let i = 0; i<100; i++){
 
@@ -21,3 +22,5 @@ for(let i = 0; i<100; i++){
     
     );
 }
+
+

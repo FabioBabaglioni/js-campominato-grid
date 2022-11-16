@@ -10,4 +10,7 @@ function createGrid(){
     
     console.log(elemento);
 
+    // ritornalo
+    return elemento;
+
 }

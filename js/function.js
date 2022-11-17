@@ -1,6 +1,9 @@
 
 let number 
 
+// array 1 numeri random
+myArrNum = randomNumberNot (16, 1, 100)
+
 // funzione per creare la griglia
 function createGrid(number){
 
@@ -18,4 +21,24 @@ function createGrid(number){
     // ritornalo
     return elemento;
 
+}
+
+// genera numeri random min max
+function randomNumber(min, max){
+    return (math.floor(math.random() * ((max + 1) - min) + min));
+}
+
+// genera numeri unici random senza doppioni
+function randomNumberNot (howMany, minNum, maxNum){
+    const newArr = []:
+
+    // inserire i numeri nel array
+    while (newArr.length < howMany){
+        let newNumber = randomNumber(minNum, maxNum);
+
+        if(!newArr.includes(newNumber)){
+
+            newArr.push(newNumber);
+        }
+    }
 }

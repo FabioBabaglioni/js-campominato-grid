@@ -1,28 +1,40 @@
 // creare pratofiorito
 
 // dichiaro le constanti
-createNumber()
-
-let myElement = document.getElementById("container")
-
-for(let i = 0; i<100; i++){
-
-    // console.log(number);
-
-    let nuovoElemento = createGrid(i);
-
-    myElement.appendChild(nuovoElemento);
+const btn = document.getElementById("button")
 
 
-    // click per colorare / scolorare il quadratino di blu
-    nuovoElemento.addEventListener("click",
+btn.addEventListener("click",
+
+    function(){
+
+        createNumber()
+
+        let myElement = document.getElementById("container")
+
+        for(let i = 0; i<100; i++){
+
+            // console.log(number);
+
+            let nuovoElemento = createGrid(i);
+
+            myElement.appendChild(nuovoElemento);
+
+
+            // click per colorare / scolorare il quadratino di blu
+            nuovoElemento.addEventListener("click",
+            
+                function(){
+                    nuovoElemento.classList.toggle("click")
+
+                }
+            );
+        };
+    }
+
     
-        function(){
-            nuovoElemento.classList.toggle("click")
+);
 
-        }
-    );
-}
 
 // let none = document.getElementById("container");
 

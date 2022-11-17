@@ -5,9 +5,9 @@ let number
 
 function createNumber(){
     
-    for (let i = 1; i < 100; i++){
+    for (let i = 0;  i < 101; i++){
 
-        number = i + 1
+        number = i + 1 ;
 
         console.log(number);
     }
@@ -15,14 +15,14 @@ function createNumber(){
 
 
 // funzione per creare la griglia
-function createGrid(){
+function createGrid(number){
 
     // creazione elemento div
     const elemento = document.createElement("div");
     
-    elemento.classList.add("box")
+    elemento.classList.add("box");
 
-    elemento.innerHTML = `${number}`
+    elemento.innerHTML = `${number + 1}`;
 
         // ritornare l'elemento per visualizzarlo
     

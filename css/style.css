@@ -18,6 +18,15 @@
     width: 50%;
 }
 
+.display{
+    
+}
+
+#Container_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
 .click{
     background-color: aqua;
 }

@@ -1,13 +1,13 @@
 // creare pratofiorito
 
 // dichiaro le constanti
-const myElement = document.getElementById("container")
-
 createNumber()
+
+let myElement = document.getElementById("container")
 
 for(let i = 0; i<100; i++){
 
-    console.log(number);
+    // console.log(number);
 
     let nuovoElemento = createGrid(i);
 
@@ -20,10 +20,19 @@ for(let i = 0; i<100; i++){
         function(){
             nuovoElemento.classList.toggle("click")
 
-            console.log(numero);
         }
-    
     );
 }
+
+// let none = document.getElementById("container");
+
+// Button.addEventListener("click",
+
+// none.classList.add("display");
+
+// );
+
+
+
 
 

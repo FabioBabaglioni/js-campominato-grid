@@ -1,19 +1,6 @@
 
 let number 
 
-// funzione per creare i numeri progressivi
-
-function createNumber(){
-    
-    for (let i = 0;  i < 101; i++){
-
-        number = i + 1 ;
-
-        console.log(number);
-    }
-}
-
-
 // funzione per creare la griglia
 function createGrid(number){
 
@@ -22,7 +9,7 @@ function createGrid(number){
     
     elemento.classList.add("box");
 
-    elemento.innerHTML = `${number + 1}`;
+    elemento.innerHTML = `${number }`;
 
         // ritornare l'elemento per visualizzarlo
     

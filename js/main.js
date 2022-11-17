@@ -8,11 +8,11 @@ btn.addEventListener("click",
 
     function(){
 
-        createNumber()
+        // createNumber()
 
         let myElement = document.getElementById("container")
 
-        for(let i = 0; i<100; i++){
+        for(let i = 1; i<=100; i++){
 
             // console.log(number);
 
@@ -27,22 +27,15 @@ btn.addEventListener("click",
                 function(){
                     nuovoElemento.classList.toggle("click")
 
+                    console.log(i)
+
                 }
             );
         };
     }
-
     
 );
 
-
-// let none = document.getElementById("container");
-
-// Button.addEventListener("click",
-
-// none.classList.add("display");
-
-// );
 
 
 

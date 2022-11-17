@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     margin: 0 auto;
     width: 50%;
+    padding: 40px 0;
 }
 
 .display{
@@ -29,4 +30,17 @@
 
 .click{
     background-color: aqua;
+}
+
+header{
+    padding: 10px;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+footer{
+    padding: 20px;
+    font-size: 30px;
 }
